@@ -1,0 +1,841 @@
+
+/** Font Style For this template **/
+@import url('https://fonts.googleapis.com/css?family=Lustria');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+
+/** Styling for the Font **/
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Lustria', serif !important;
+}
+
+p {
+  font-family: 'Lato', sans-serif !important;
+  font-weight: 100;
+}
+
+h1 {
+  font-size: 54px
+}
+
+h2 {
+  font-size: 36px
+}
+
+h3 {
+  font-size: 20px
+}
+
+p {
+  font-size: 16px
+}
+/** end **/
+
+/** General Button Style **/
+
+.btn {
+  font-family: 'Lustria', serif !important;
+  font-weight: 100 !important;
+  border-radius: 0
+}
+
+/** end **/
+
+/** The Background for the Banner **/
+
+.banner-container {
+  background-image: url('../img/BannerHD.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 990px;
+  position: relative;
+  text-align: center;
+}
+/** end **/
+
+/** Navbar **/
+
+.nav-wrapper {
+  margin-left: auto
+}
+
+.bg-light {
+  background-color: #ffffff00 !important
+}
+
+.nav-link {
+  color: #ffffff !important
+}
+
+nav button {
+  margin-left: auto;
+  color: #ffffff;
+}
+
+.nav-width {
+  width: 1366px;
+  margin: auto
+}
+
+.book-btn {
+  border: 1px solid white
+}
+
+.samplecontainer {
+  height: 1000px
+}
+
+nav a {
+  font-family: 'Lustria', serif !important;
+}
+
+.navbar-nav {
+  margin-left: auto
+}
+
+.navbar-toggler.navbar-toggler {
+  border-color: rgb(255,255,255,1) !important;
+}
+.navbar-light .navbar-toggler-icon {
+background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+.hideme {
+  opacity:0;
+}
+
+/** end of Navbar **/
+
+/** Overlay Text for the Banner **/
+
+.text-overlay {
+  position: absolute
+}
+
+.centered {
+  text-align: center;
+  padding-top:15%;
+}
+
+.centered p{
+  color:#ffffff;
+}
+
+.overlay h1 {
+  font-weight: 100 !important;
+  font-size: 54px !important
+}
+
+.overlay .text-overlay-content {
+  color: #ffffffb9 !important
+}
+
+.booknow {
+  padding: 5px 35px 5px 35px;
+}
+
+.overlay-booknow {
+  margin-top: 80px;
+  background-color: #ffffff;
+}
+/** end **/
+
+/** Rooms & Facilities **/
+
+.line {
+  position: absolute;
+  content: '';
+  background-color: black;
+  width: 30px;
+  height: 2px;
+  top: -33px;
+  left: 0;
+}
+
+.btn-secondary {
+  background-color: #ffffff00;
+  color: #000000;
+  border: none;
+  border-bottom: 1px solid #000000;
+  padding: 5px 10px 5px 10px
+}
+
+.btn-secondary:hover {
+  background-color: #f5f5f5;
+  color: #000000
+}
+
+.dropdown {
+  border-radius: 0
+}
+
+.dropdown .dropdown-toggle::after {
+  float: right
+}
+
+.unitbedroom {
+  float: left
+}
+
+.dropdown .btn {
+  width: 350px;
+  margin-left: 0
+}
+
+.unit-properties {
+  float: left;
+  width: 350px;
+  border-bottom: 1px solid #000000;
+  margin-top: 30px
+}
+
+.unit-properties span{
+  float: right
+}
+
+.overlay-div {
+  text-align: center
+}
+
+.unit-btn {
+  background-color: #1d1d1d;
+  color: #ffffff;
+  padding: 8px 30px 8px 30px;
+  margin-top: 30px;
+}
+
+.unit-btn:hover {
+  cursor: pointer;
+  background-color: #474747
+}
+
+.rooms-facilities .col-lg-4 {
+  margin-top: 30px
+}
+
+.rooms-facilities-desc {
+  margin-bottom: 50px
+}
+
+.rooms-facilities .booknow-wrapper {
+  margin-top: 0
+}
+
+.rooms-facilities .no-border {
+  border-bottom: 1px solid #000000;
+  border-radius: 0
+}
+
+.rooms-facilities {
+  margin-top: 100px
+}
+
+/** end **/
+
+/** career **/
+
+.career {
+  background-image: url('../img/Career-BG.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 990px;
+  margin-top: 100px;
+}
+
+.career-title-wrapper {
+  padding-top: 100px
+}
+
+.career .container .col-lg-6 {
+  padding-top: 10%
+}
+
+.career-position {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #000000;
+  width: 350px
+}
+
+.career-position-desc {
+  margin-top: 30px
+} 
+
+.career .career-btn {
+  border-right: 1px solid #000000
+}
+
+.career-two {
+  margin-left: 25px
+}
+
+.career-requirements {
+  margin-top: 50px
+}
+
+.join-btn {
+  width: 180px;
+  padding: 10px 0;
+  background-color: #1d1d1d;
+  color: #ffffff;
+  margin-top: 80px
+}
+
+/** end **/
+
+
+/** book now **/
+
+.book-now {
+  padding-top:70px !important;
+}
+
+.form-control {
+  border: none;
+  border-bottom: 1px solid #000000;
+  border-radius: 0
+}
+
+.dropdown-booknow .btn-secondary {
+  width: 100%;
+  border: none
+}
+
+.booknow-wrapper {
+  border-bottom: 1px solid #000000;
+  margin-top: 30px;
+}
+
+.booknow-wrapper .btn-secondary {
+  border: none;
+  padding: 0;
+  width: 100%;
+}
+
+.form-group {
+  border: none;
+  margin-bottom: 0
+}
+
+.no-border {
+  border: none
+}
+
+.booknow-wrapper span {
+  font-size: 15px
+}
+
+.booknow-btn {
+  background-color: #1d1d1d;
+  color: #ffffff;
+  padding: 8px 30px 8px 30px;
+  margin-top: 30px;
+  width: 100%
+}
+
+.booknow-item-wrapper {
+  margin-top: 150px;
+  margin-bottom: 150px
+}
+
+.input-date {
+  border: none;
+  width: 100%
+}
+
+.input-date-number .input-date {
+  width: 100%
+}
+
+.inputdate-text {
+  color: #00000075
+}
+
+/** end **/
+
+
+/** footer **/
+
+.footer {
+  background-color: #202020;
+  padding: 20px
+}
+
+.footer p {
+  color: white
+}
+
+section {
+  padding: 0
+}
+
+.social-media {
+  margin-left: auto
+}
+
+.social-media {
+  margin-top: auto;
+  margin-bottom: auto
+}
+
+.footer-copyright {
+  margin-top: auto;
+  margin-bottom: auto
+}
+
+/** end **/
+
+
+/** Go to Top Button **/
+
+.gototop-btn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 1px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #000000; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+  width: 60px
+}
+
+.gototop-btn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+/** end **/
+
+/** For Responsive **/
+
+
+/** for screen smaller than 1024px **/
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+  .overlay-booknow {
+    margin-top: 30px;
+    background-color: #ffffff
+  }
+
+  .centered {
+    padding-top:25%;
+  }
+
+  .unit-properties {
+    width: 300px;
+  }
+
+  .ftr-image {
+    width: 100%;
+  }
+
+  .rooms-facilities .container .row .col-md-4 img {
+    width: 100% !important
+  }
+
+  .rooms-facilities .col-lg-4 {
+    margin-top: 10px
+  }
+
+  .book-now .col-lg-2 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+  .book-now .col-lg-5 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+
+  .book-now .col-lg-1 {
+    max-width: 0;
+    padding: 0
+  }
+
+  .input-date {
+    width: 100%
+  }
+
+  .input-date-number .input-date {
+    width: 100%
+  }
+
+  .book-now .input-date-number .col-lg-5 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .unit-type-responsive {
+    -webkit-box-flex: 0 !important;
+    -ms-flex: 0 0 100% !important;
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+
+  .social-media {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: auto
+  }
+
+  .footer-copyright {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto
+  }
+
+  .fa {
+    font-size: 30px
+  }
+
+}
+
+/** for screen smaller than 768px **/
+@media only screen and (max-width: 768px){
+  .unit-properties {
+    float: none;
+  }
+
+  .centered {
+    padding-top:40%;
+  }
+
+  .ftr-image {
+    width: 688px;
+  }
+
+  .career .career-requirements .col-6 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 30%;
+  }
+
+  .rooms-facilities .container .row .col-md-4 img {
+    width: 100% !important
+  }
+
+  .input-date {
+    width: 100%
+  }
+
+  .book-now {
+    margin-top: 30px
+  }
+
+  .overlay-booknow {
+    margin-top: 30px;
+    background-color: #ffffff;
+  }
+
+  .book-btn {
+    border: none
+  }
+
+  .navbar-nav {
+    float: right;
+    text-align: right
+  }
+
+  .nav-link {
+    font-size: 30px
+  }
+
+  .unit-btn {
+    margin-bottom: 30px
+  }
+
+  .navbar {
+    background-color: rgba(0,0,0,0.7) !important
+  }
+
+  .input-date-number .input-date {
+    width: 100%
+  }
+
+  .social-media {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: auto
+  }
+
+  .footer-copyright {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto
+  }
+
+  .fa {
+    font-size: 30px
+  }
+
+  .hideme {
+    opacity:1;
+  }
+
+  .overlay-div img {
+    display: none
+  }
+}
+/** for screen smaller than 414px **/
+@media only screen and (max-width: 414px) {
+
+  .overlay-div img {
+    display: none
+  }
+
+  .banner-container {
+    height: 700px
+  }
+  
+  .overlay-div {
+    border-bottom: 1px solid #ffffff;
+    margin: 30px 0
+  }
+  
+  .ftr-image {
+    width: 380px;
+  }
+
+  .unit-btn {
+    margin-left: 28%;
+    margin-bottom: 20px
+  }
+
+  .book-btn {
+    border: none
+  }
+  .career-two{
+    margin-left: 0
+  }
+
+  .career {
+    height: 800px;
+  }
+
+  .book-now {
+    margin-top: 30px
+  }
+
+  .overlay-booknow {
+    margin-top: 30px;
+    background-color: #ffffff
+  }
+
+  .footer-copyright {
+    text-align: center;
+    padding-top: 10px
+  }
+
+  .footer .row {
+    display: block;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  .input-date {
+    width: 100%
+  }
+
+  .career .career-requirements .col-6 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .input-date-number .input-date {
+    width: 100%
+  }
+
+  .booknow-wrapper.input-date-number  {
+    border: none
+  }
+
+  .input-date-number .input-date {
+    border-bottom: 1px solid #000000
+  }
+
+  .no-border {
+    padding: 0;
+  }
+
+  .form-control {
+    padding-left: 0
+  }
+
+  .social-media {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .fa {
+    font-size: 20px
+  }
+
+  .nav-link {
+    font-size: 20px
+  }
+
+  .hideme {
+    opacity:1;
+  }
+
+}
+
+/** for screen smaller than 375px **/
+@media only screen and (max-width: 375px) {
+  .ftr-image {
+    width: 330px;
+  }
+
+  .centered {
+    padding-top:20%;
+  }
+
+  .overlay-div img {
+    display:none;
+  }
+
+  .unit-properties {
+    width: 330px
+  }
+  img {
+    width: 100%
+  }
+
+  .career-position {
+    width: 300px;
+  }
+
+  .input-date {
+    width: 100%
+  }
+
+  .unit-btn {
+    margin-left: 24%;
+    margin-bottom: 20px
+  }
+
+  .no-border {
+    padding: 0;
+  }
+
+  .form-control {
+    padding-left: 0
+  }
+
+  .social-media {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .hideme {
+    opacity:1;
+  }
+}
+
+/** for screen smaller than 360px **/
+@media only screen and (max-width: 360px) {
+  .ftr-image {
+    width: 330px;
+  }
+
+  .unit-properties {
+    width: 330px
+  }
+  img {
+    width: 100%
+  }
+
+  .career-position {
+    width: 300px;
+  }
+
+  .input-date {
+    width: 100%
+  }
+
+  .input-date-number .input-date {
+    width: 100%
+  }
+
+  .no-border {
+    padding: 0;
+  }
+
+  .form-control {
+    padding-left: 0
+  }
+
+  .social-media {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .hideme {
+    opacity:1;
+  }
+}
+
+/** for screen smaller than 320px **/
+@media only screen and (max-width: 320px) {
+  .ftr-image {
+    width: 290px;
+  }
+
+  .unit-properties {
+    width: 280px
+  }
+
+  .career-position {
+    width: 270px;
+  }
+
+  .input-date {
+    width: 100%
+  }
+
+  .input-date-number .input-date {
+    width: 100%
+  }
+
+  .no-border {
+    padding: 0;
+  }
+
+  .form-control {
+    padding-left: 0
+  }
+
+  .social-media {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .hideme {
+    opacity:1;
+  }
+  
+}

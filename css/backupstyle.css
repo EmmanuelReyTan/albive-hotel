@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css?family=Lustria');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Lustria', serif !important;
+}
+
+p {
+  font-family: 'Lato', sans-serif !important;
+  font-weight: 100;
+}
+
+h1 {
+  font-size: 34px
+}
+
+h2 {
+  font-size: 25px
+}
+
+h3 {
+  font-size: 20px
+}
+
+p {
+  font-size: 15px
+}
+
+.btn {
+  font-family: 'Lustria', serif !important;
+  font-weight: 100 !important;
+  border-radius: 0
+}
+
+
+.banner-container {
+  background-image: url('../img/BannerHD.jpg');
+  background-position: center;
+  width: 100%;
+  height: 990px;
+  position: relative;
+  text-align: center;
+}
+
+/** Navbar **/
+
+.nav-wrapper {
+  margin-left: auto
+}
+
+.bg-light {
+  background-color: #ffffff00 !important
+}
+
+.nav-link {
+  color: #ffffff !important
+}
+
+nav button {
+  margin-left: auto;
+  color: #ffffff;
+}
+
+.nav-width {
+  width: 1366px;
+  margin: auto
+}
+
+.book-btn {
+  border: 1px solid white
+}
+
+.samplecontainer {
+  height: 1000px
+}
+
+nav a {
+  font-family: 'Lustria', serif !important;
+}
+
+
+
+
+
+
+
+
+.navbar-default{
+  background:transparent;
+  border:none !important;
+}
+.navbar-nav>li>a:hover{
+  color:#1a1a1a;
+} 
+.collapse.in{
+  
+  background-color:#f0f0f0 !important;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus
+.spacer{
+ background-color:#888;   
+}
+
+.spacer{
+  height:100px;
+}
+
+/**end**/
+
+/** Overlay **/
+
+.text-overlay {
+  position: absolute
+}
+
+.centered {
+  z-index: 1000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.overlay h1 {
+  font-weight: 100 !important;
+  font-size: 40px !important
+}
+
+.overlay .text-overlay-content {
+  color: #ffffffb9 !important
+}
+
+.booknow {
+  padding: 5px 35px 5px 35px;
+}
+
+.overlay-booknow {
+  margin-top: 80px
+}
+/** end **/
+
+/** Rooms & Facilities **/
+
+.line {
+  position: absolute;
+  content: '';
+  background-color: black;
+  width: 30px;
+  height: 2px;
+  top: -33px;
+  left: 0;
+}
+
+.btn-secondary {
+  background-color: #ffffff00;
+  color: #000000;
+  border: none;
+  border-bottom: 1px solid #000000;
+  padding: 5px 10px 5px 10px
+}
+
+.btn-secondary:hover {
+  background-color: #f5f5f5;
+  color: #000000
+}
+
+.dropdown {
+  border-radius: 0
+}
+
+.dropdown .dropdown-toggle::after {
+  float: right
+}
+
+.unitbedroom {
+  float: left
+}
+
+.dropdown .btn {
+  width: 350px;
+  margin-left: 0
+}
+
+.unit-property-number {
+  margin-left: 200px
+}
+
+.unit-properties {
+  float: left;
+  width: 350px;
+  border-bottom: 1px solid #000000;
+  margin-top: 30px
+}
+
+.unit-properties span{
+  float: right
+}
+
+.unit-btn {
+  background-color: #1d1d1d;
+  color: #ffffff;
+  padding: 8px 30px 8px 30px;
+  margin-top: 30px
+}
+
+.unit-btn:hover {
+  cursor: pointer;
+  background-color: #474747
+}
+
+.rooms-facilities .col-lg-4 {
+  margin-top: 30px
+}
+
+.rooms-facilities-desc {
+  margin-bottom: 50px
+}
+
+
+.rooms-facilities .booknow-wrapper {
+  margin-top: 0
+}
+
+/** career **/
+
+.career {
+  background-image: url('../img/Career-BG.jpg');
+  background-position: center;
+  width: 100%;
+  height: 990px;
+  margin-top: 100px;
+}
+
+.career-title-wrapper {
+  padding-top: 30px
+}
+
+.career .container .col-lg-6 {
+  padding-top: 10%
+}
+
+.career-position {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #000000;
+  width: 350px
+}
+
+.career-position-desc {
+  margin-top: 30px
+} 
+
+.career .career-btn {
+  border-right: 1px solid #000000
+}
+
+.career-two {
+  margin-left: 25px
+}
+
+.career-requirements {
+  margin-top: 50px
+}
+
+.join-btn {
+  width: 180px;
+  padding: 10px 0;
+  background-color: #1d1d1d;
+  color: #ffffff;
+  margin-top: 80px
+}
+
+
+/** book now **/
+
+.form-control {
+  border: none;
+  border-bottom: 1px solid #000000;
+  border-radius: 0
+}
+
+.dropdown-booknow .btn-secondary {
+  width: 100%;
+  border: none
+}
+
+.booknow-wrapper {
+  border-bottom: 1px solid #000000;
+  margin-top: 30px;
+}
+
+.booknow-wrapper .btn-secondary {
+  border: none;
+  padding: 0;
+  width: 100%;
+}
+
+.form-group {
+  border: none;
+  margin-bottom: 0
+}
+
+.no-border {
+  border: none
+}
+
+
+.booknow-wrapper span {
+  font-size: 15px
+}
+
+.booknow-btn {
+  background-color: #1d1d1d;
+  color: #ffffff;
+  padding: 8px 30px 8px 30px;
+  margin-top: 30px;
+  width: 100%
+}
+
+
+
+.booknow-item-wrapper {
+  margin-top: 150px;
+  margin-bottom: 150px
+}
+
+.input-date {
+  border: none
+}
+
+.inputdate-text {
+  color: #00000075
+}
+
+
+/** footer **/
+
+.footer {
+  background-color: #202020;
+  height: 60px
+}
+
+.footer p {
+  color: white
+}
+
+
+section {
+  padding: 0
+}
+
+
+/** line **/
+
+.linesample span::before {
+  content: '';
+  position: absolute;
+  right: 18px;
+  width: 21px;
+  top: 50%;
+  height: 1px;
+  background-color: #cccccc;
+
+}
+
+.linesample .container {
+  position: relative
+}
+
+
+
+
+
+
+
+
+
+
+/** Media Q **/
+
+@media only screen and (max-width: 1440px) {
+
+}
